@@ -1,0 +1,27 @@
+.banner {
+  height: 500px;
+  overflow: hidden;
+  background-image: url("../../images/background.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.banner-content {
+  color: white;
+  padding-left: 50px;
+  padding-right: 400px;
+  margin-inline: auto;
+}
+
+.banner-content h1 {
+  margin-bottom: 0;
+}
+
+.banner-content h2 {
+  font-family: Open Sans;
+  font-weight: 500;
+  color: lightgray;
+  margin-top: 0;
+}
